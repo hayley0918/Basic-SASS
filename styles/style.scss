@@ -1,0 +1,12 @@
+@import './variables';
+@import './header';
+
+.features{
+    @extend header;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.features button{
+    background-color: $primaryBtn;
+}
